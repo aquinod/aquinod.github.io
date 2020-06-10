@@ -1,5 +1,5 @@
 ## FIX:
-- contact form
 - fill in content
-- mobile scalability
-- aesthetics
+- orange line on left
+- aesthetics (colorgrade, fonts, animations)
+- right margin of journey section
