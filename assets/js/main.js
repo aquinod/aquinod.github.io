@@ -70,7 +70,7 @@
   var main_nav = $('.nav-menu, #mobile-nav');
 
   $(window).on('scroll', function() {
-    var cur_pos = $(this).scrollTop() + 10;
+    var cur_pos = $(this).scrollTop() + 800;
 
     nav_sections.each(function() {
       var top = $(this).offset().top,

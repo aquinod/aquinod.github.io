@@ -33,6 +33,9 @@ h1, h2, h3, h4, h5, h6 {
 
 h2 {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 img.resize {
@@ -140,7 +143,7 @@ img.resize {
   padding: 0;
   font-weight: 300;
   text-align: center;
-  font-family: "p22-underground", sans-serif;
+  font-family: "myriad-pro", sans-serif;
 }
 
 #header .profile h1 a, #header .profile h1 a:hover {
@@ -209,7 +212,7 @@ img.resize {
   margin-bottom: 8px;
   transition: 0.3s;
   font-size: 18px;
-  font-family: "myriad-pro", sans-serif;
+  font-family: "minion-pro", serif;
   font-weight: 300;
   font-style: normal;
   text-align: center;
@@ -361,15 +364,13 @@ section {
 }
 
 .section-title h2::after {
-  content: '';
+  content: " ";
+  height: 2px;
   position: absolute;
-  text-align: right;
-  display: block;
-  width: 50px;
-  height: 3px;
+  top: 100%;
+  width: 80px;
   background: #ffae00;
-  bottom: 0;
-  left: 0;
+  padding: 0;
 }
 
 .section-title p {
@@ -468,8 +469,8 @@ section {
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #ebebeb;
-  padding: 5px 15px;
+  /* background: #ebebeb;
+  padding: 5px 15px; */
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
