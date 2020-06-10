@@ -38,8 +38,46 @@ h2 {
 img.resize {
   border-radius: 15px;
   max-width: 75%;
-  max-height: 75%;
+  height: auto;
   float: right;
+  vertical-align: bottom;
+  margin: 6px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  height: 100%;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 15%;
+  text-align: center;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-instagram {
+  background: #ebebeb;
+  color: black;
+}
+
+.fa-facebook {
+  background: #ebebeb;
+  color: black;
+}
+
+.fa-twitter {
+  background: #ebebeb;
+  color: black;
+}
+
+.fa-linkedin {
+  background: #ebebeb;
+  color: black;
 }
 
 /*--------------------------------------------------------------
@@ -259,14 +297,16 @@ img.resize {
   font-style: normal;
   font-family: "myriad-pro", sans-serif;
   color: #fff;
+  text-align: center;
 }
 
 #hero p {
   color: #fff;
   margin-bottom: 50px;
-  font-size: 26px;
+  font-size: 24px;
   padding-left: 2px;
   font-family: "minion-pro", serif;
+  text-align: center;
 }
 
 #hero p span {
@@ -376,10 +416,10 @@ section {
 .skills .progress .skill {
   padding: 0;
   margin: 0 0 6px 0;
-  text-transform: uppercase;
   display: block;
-  font-weight: 600;
-  font-family: "adobe-caslon-pro", serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "minion-pro", serif;
   color: #050d18;
 }
 
@@ -389,7 +429,7 @@ section {
 }
 
 .skills .progress-bar-wrap {
-  background: #dce8f8;
+  background: #ebebeb;
 }
 
 .skills .progress-bar {
@@ -428,7 +468,7 @@ section {
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #e4edf9;
+  background: #ebebeb;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -626,7 +666,7 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact {
-  padding-bottom: 130px;
+  padding-bottom: 0px;
 }
 
 .contact .info {

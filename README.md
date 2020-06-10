@@ -1,5 +1,6 @@
 ## FIX:
-- contact form
 - fill in content
-- mobile scalability
-- aesthetics
+- aesthetics (font, color, transitions)
+- orange line between sections
+- center nav menu options
+- choose nav menu button location
