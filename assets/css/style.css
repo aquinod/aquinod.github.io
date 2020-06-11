@@ -290,7 +290,7 @@ img.resize {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/field.jpeg") left center;
+  background: url("../img/field.jpeg") center;
   background-size: cover;
 }
 
@@ -337,12 +337,6 @@ img.resize {
   padding-bottom: 4px;
   letter-spacing: 1px;
   border-bottom: 3px solid #ffae00;
-}
-
-@media (min-width: 1024px) {
-  #hero {
-    background-attachment: fixed;
-  }
 }
 
 @media (max-width: 768px) {
