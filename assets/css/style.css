@@ -358,7 +358,6 @@ section {
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 20px;
-  padding-bottom: 20px;
   position: relative;
   color: #173b6c;
 }
@@ -433,6 +432,7 @@ section {
   height: 10px;
   transition: .9s;
   background-color: #ffae00;
+  border-radius: 15px;
 }
 
 /*--------------------------------------------------------------
