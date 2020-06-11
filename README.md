@@ -1,3 +1,2 @@
 ## FIX:
-- fill in content
-- aesthetics (font, color)
+- content, gap below "My Journey" on mobile, font, colors
