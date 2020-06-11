@@ -882,6 +882,9 @@ section {
   .journey {
     margin-bottom: -5%;
   }
+  .contact {
+    padding-bottom: 5%;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -975,34 +978,3 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-
-#footer {
-  padding: 15px;
-  color: #fff;
-  font-size: 14px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 300px;
-  z-index: 9999;
-  background: #fff;
-}
-
-#footer .copyright {
-  text-align: center;
-}
-
-#footer .credits {
-  padding-top: 5px;
-  text-align: center;
-  font-size: 13px;
-  color: #fff;
-}
-
-@media (max-width: 1199px) {
-  #footer {
-    position: static;
-    width: auto;
-    padding-right: 20px 15px;
-  }
-}
