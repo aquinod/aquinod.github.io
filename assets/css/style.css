@@ -343,8 +343,6 @@ img.resize {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding-left: 45px;
-  padding-right: 45px;
   overflow: hidden;
 }
 
