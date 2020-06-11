@@ -70,7 +70,7 @@
   var main_nav = $('.nav-menu, #mobile-nav');
 
   $(window).on('scroll', function() {
-    var cur_pos = $(this).scrollTop() + 800;
+    var cur_pos = $(this).scrollTop() + 600;
 
     nav_sections.each(function() {
       var top = $(this).offset().top,
@@ -82,7 +82,7 @@
         }
         main_nav.find('a[href="#' + $(this).attr('id') + '"]').parent('li').addClass('active');
       }
-      if (cur_pos < 200) {
+      if (cur_pos < 600) {
         $(".nav-menu ul:first li:first").addClass('active');
       }
     });

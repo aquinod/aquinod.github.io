@@ -343,7 +343,8 @@ img.resize {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding-left: 60px;
+  padding-right: 60px;
   overflow: hidden;
 }
 
@@ -422,6 +423,7 @@ section {
 
 .skills .progress-bar-wrap {
   background: #ebebeb;
+  border-radius: 15px;
 }
 
 .skills .progress-bar {
@@ -498,6 +500,7 @@ section {
     max-width: 100%;
     max-height: 100%;
     margin: 0 auto;
+    padding: 5px;
   }
 }
 
