@@ -17,17 +17,6 @@ body {
   color: #272829;
 }
 
-<<<<<<< HEAD
-=======
-.container {
-    padding: 80rem;
-    padding-left: env(safe-area-inset-left);
-    padding-right: env(safe-area-inset-right);
-    padding-top: env(safe-area-inset-top);
-    padding-bottom: env(safe-area-inset-bottom);
-}
-
->>>>>>> parent of db0bf85... Update style.css
 a {
   color: #ffae00;
 }
@@ -381,6 +370,10 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about {
+  padding-left: max(40rem, env(safe-area-inset-left));
+  padding-right: max(40rem, env(safe-area-inset-right));
+}
 
 .about .content h3 {
   font-weight: 700;
