@@ -17,6 +17,24 @@ body {
   color: #272829;
 }
 
+@media screen and (orientation: landscape) {
+  .nav-menu {
+    padding-left: env(safe-area-inset-left);
+  }
+  .about {
+    padding-left: max(10rem, env(safe-area-inset-left));
+    padding-right: max(10rem, env(safe-area-inset-right));
+  }
+  .resume {
+    padding-left: max(10rem, env(safe-area-inset-left));
+    padding-right: max(10rem, env(safe-area-inset-right));
+  }
+  .skills {
+    padding-left: max(10rem, env(safe-area-inset-left));
+    padding-right: max(10rem, env(safe-area-inset-right));
+  }
+}
+
 a {
   color: #ffae00;
 }
