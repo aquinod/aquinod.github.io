@@ -363,14 +363,9 @@ section {
   color: #173b6c;
 }
 
-.section-title h2::after {
-  content: " ";
-  height: 2px;
-  position: absolute;
-  top: 100%;
-  width: 80px;
-  background: #ffae00;
-  padding: 0;
+.section-title h2 span {
+  border-bottom: 2px solid #ffae00;
+  padding-bottom: 16px;
 }
 
 .section-title p {
