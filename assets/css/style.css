@@ -502,6 +502,20 @@ section {
   }
   .resume .section-title h2 {
     margin-bottom: -5%;
+    padding-bottom: 7%;
+  }
+}
+
+@media (max-width: 990px) {
+  .resume .section-title h2 {
+    margin-bottom: -5%;
+    padding-bottom: 4%;
+  }
+}
+
+@media (max-width: 989px) {
+  .resume .section-title h2 {
+    margin-bottom: -7%;
   }
 }
 
