@@ -1,3 +1,3 @@
 ## FIX:
 - fill in content
-- aesthetics (font, color, transitions)
+- aesthetics (font, color)
