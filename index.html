@@ -29,6 +29,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  
 </head>
 
 <body>
@@ -226,7 +227,7 @@
         <div class="section-title">
           <h2><span>Some of My Work</span></h2>
             <div class="videoWrapper" style="text-align: center">
-              <iframe src="https://www.youtube.com/embed/JNGBfvCEgSU?rel=0" width="560" height="315" frameborder="0"></iframe>
+              <iframe style="border-radius: 15px;" data-aos="fade-up" data-aos-easing="ease-in" data-aos-duration="500" src="https://www.youtube.com/embed/JNGBfvCEgSU?rel=0" width="560" height="315" frameborder="0"></iframe>
             </div>
         </div>
       </div>
@@ -503,6 +504,13 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  
+  <script>
+    AOS.init({
+      // Global settings:
+      once: true, // whether animation should happen only once - while scrolling down
+    });
+  </script>
 
 </body>
 
