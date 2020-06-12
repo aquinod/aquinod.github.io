@@ -206,6 +206,20 @@ img.resize
 }
 
 @media (max-width: 1199px) {
+	.videoWrapper {
+		position: relative;
+		padding-bottom: 56.25%; /* 16:9 */
+		padding-top: 25px;
+		height: 0;
+	}
+	.videoWrapper iframe {
+		text-align: center;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
 	#header
 	{
 		left:-300px;
@@ -980,6 +994,7 @@ section
 }
 
 @media (max-width: 768px) {
+	
 	.breadcrumbs .d-flex
 	{
 		display:block!important;
@@ -1003,5 +1018,18 @@ section
 	.contact
 	{
 		padding-bottom:7%;
+	}
+	.videoWrapper {
+		position: relative;
+		padding-bottom: 56.25%; /* 16:9 */
+		padding-top: 25px;
+		height: 0;
+	}
+	.videoWrapper iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
 	}
 }
