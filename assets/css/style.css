@@ -1,6 +1,6 @@
 body
 {
-	font-family:"minion-pro",serif;
+	font-family:"montserrat",sans-serif;
 	font-weight:300;
 	font-style:normal;
 	color:#272829;
@@ -59,7 +59,7 @@ a:hover
 
 h1,h2,h3,h4,h5,h6
 {
-	font-family:"myriad-pro",sans-serif;
+	font-family:"merriweather",serif;
 	font-weight:300;
 }
 
@@ -183,7 +183,7 @@ img.resize
 	padding:0;
 	font-weight:300;
 	text-align:center;
-	font-family:"myriad-pro",sans-serif;
+	font-family:"merriweather", serif;
 }
 
 #header .profile h1 a,#header .profile h1 a:hover
@@ -273,7 +273,7 @@ img.resize
 	margin-bottom:8px;
 	transition:.3s;
 	font-size:18px;
-	font-family:"myriad-pro",sans-serif;
+	font-family:"sofia-pro",sans-serif;
 	font-weight:300;
 	font-style:normal;
 	text-align:center;
@@ -368,7 +368,7 @@ img.resize
 	font-weight:700;
 	line-height:56px;
 	font-style:normal;
-	font-family:"myriad-pro",sans-serif;
+	font-family:"merriweather",serif;
 	color:#fff;
 	text-align:center;
 }
@@ -379,7 +379,7 @@ img.resize
 	margin-bottom:50px;
 	font-size:24px;
 	padding-left:2px;
-	font-family:"minion-pro",serif;
+	font-family:"montserrat",sans-serif;
 	text-align:center;
 }
 
@@ -480,9 +480,9 @@ section
 	margin:0 0 6px;
 	display:block;
 	font-size:16px;
-	font-weight:400;
-	font-family:"myriad-pro", sans-serif;
-	color:#050d18;
+	font-weight:600;
+	font-family:"montserrat", sans-serif;
+	color:#50555c;
 }
 
 .skills .progress .skill .val
@@ -527,25 +527,26 @@ section
 .resume .resume-item h4
 {
 	line-height:0.8;
-	font-size:18px;
+	font-size:1.2rem;
 	font-weight:600;
-	font-family:"myriad-pro",sans-serif;
+	font-family:"montserrat",sans-serif;
 	color:#003ea7;
 	margin-top: 5px;
 }
 
 .resume .resume-item h5
 {
-	font-size:16px;
+	font-size:1rem;
+	font-family:"montserrat",sans-serif;
 	display:inline-block;
 	font-weight:600;
 	margin-bottom:10px;
 	color: #1c93db;
-	line-height: 0.6;
+	line-height: 1;
 }
 
 .resume .resume-item h6 { 
-	font-family:"myriad-pro", sans-serif;
+	font-family:"montserrat", sans-serif;
 	font-weight: 600;
 	color: #50555c;
 	margin-bottom: 1rem;

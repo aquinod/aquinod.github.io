@@ -1,2 +1,2 @@
 ## FIX:
-- content, font, colors
+- content
