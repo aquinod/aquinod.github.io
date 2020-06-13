@@ -294,7 +294,7 @@ body {
 	
 	#hero h1 {
 	margin:0 0 10px;
-	font-size:64px;
+	font-size:56px;
 	font-weight:700;
 	line-height:56px;
 	font-style:normal;
@@ -318,12 +318,21 @@ body {
 	padding-bottom:4px;
 	letter-spacing:1px;
 	border-bottom:3px solid #ffc850;
+	font-weight: 500;
 	}
 	
 	@media (max-width: 768px) {
 	#hero h1 {
-	font-size:28px;
+	font-size:32px;
 	line-height:36px;
+	}
+	#hero p {
+		font-size: 20px;
+	}
+	}
+	.skills .section-title {
+		padding: 0.5rem;
+	}
 	}
 	
 	#hero h2 {
@@ -721,6 +730,7 @@ body {
 	@media (max-width: 768px) {
 	.breadcrumbs .d-flex {
 	display:block!important;
+	
 	}
 	
 	.breadcrumbs ol {
