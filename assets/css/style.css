@@ -272,8 +272,8 @@ img.resize
 	padding:12px 15px;
 	margin-bottom:8px;
 	transition:.3s;
-	font-size:18px;
-	font-family:"sofia-pro",sans-serif;
+	font-size:1.1rem;
+	font-family:"montserrat",sans-serif;
 	font-weight:300;
 	font-style:normal;
 	text-align:center;
@@ -286,15 +286,14 @@ img.resize
 	color:#6f7180;
 }
 
-.nav-menu a:hover,.nav-menu .active > a,.nav-menu li:hover > a
-{
-	text-decoration:none;
-	color:#fff;
-}
 
-.nav-menu a:hover i,.nav-menu .active > a i,.nav-menu li:hover > a i
-{
-	color:#f7b85f;
+.nav-menu a:hover, .nav-menu li:hover > a {
+	text-decoration: none;
+	color: #fff;
+}
+  
+.nav-menu a:hover i, .nav-menu li:hover > a i {
+	color: #f7b85f;
 }
 
 .mobile-nav-toggle
@@ -1058,4 +1057,5 @@ section
 		width: 100%;
 		height: 100%;
 	}
+	
 }
