@@ -1,3 +1,3 @@
 ## FIX:
-- content: UMich, P&G, BAA, MECC
+- content: BAA
 - SEO optimization
