@@ -63,7 +63,7 @@ body {
 	
 	img.resize {
 	border-radius:15px;
-	max-width:87%;
+	max-width:60%;
 	height:auto;
 	float:right;
 	vertical-align:bottom;
@@ -279,7 +279,7 @@ body {
 	#hero {
 	width:100%;
 	height:100vh;
-	background:url(../img/field.jpeg) center;
+	background:url(../img/sk.jpeg) center;
 	background-size:cover;
 	}
 	
@@ -342,13 +342,11 @@ body {
 	.skills .section-title {
 		padding: 0.5rem;
 	}
-	}
 	
 	#hero h2 {
 	font-size:18px;
 	line-height:24px;
 	margin-bottom:30px;
-	}
 	}
 	
 	section {
